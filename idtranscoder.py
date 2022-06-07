@@ -1,5 +1,5 @@
 personal_code=input("Please enter your personal number in format 12345678900 :  ")
-def creating_var():
+def creating_var() -> None:
     global a,b,c,d,e,f,g,h,i,j,k
     a,b,c,d,e,f,g,h,i,j,k  = [int(i) for i in list(personal_code)]
 # iš pateikto personal_code kiekvieno nari prilyginame  variable nuo a iki k , taipogi kiekvieną kintąmąjį padarome integeriu
